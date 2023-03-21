@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 
 public class Estado {
-    ArrayList<Municipio> municipios;
+    private ArrayList<Municipio> municipios;
 
-    public Estado(ArrayList<Municipio> municipios) {
+    public Estado(ArrayList<Municipio> municipios)
+    {
         this.municipios = municipios;
     }
 

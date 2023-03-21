@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Pais {
-    ArrayList<Estado> estados;
+    private ArrayList<Estado> estados;
 
     public Pais(ArrayList<Estado> estados) {
         this.estados = estados;
