@@ -1,4 +1,4 @@
-public class Municipio {
+public class Municipio { // Nenhuma alteração foi feita na classe Municipio, explicações estão nas outras classes
     private int populacao;
     private double area;
     public Municipio(int populacao, double area)
@@ -14,5 +14,8 @@ public class Municipio {
     {
         return area;
     }
-    public double densidade() { return populacao/area; }
+    public double densidade()
+    {
+        return populacao/area;
+    }
 }
