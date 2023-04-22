@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PBL03/PBL03.iml" filepath="$PROJECT_DIR$/PBL03/PBL03.iml" />
       <module fileurl="file://$PROJECT_DIR$/PBL04/PBL04.iml" filepath="$PROJECT_DIR$/PBL04/PBL04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PBL05/PBL05.iml" filepath="$PROJECT_DIR$/PBL05/PBL05.iml" />
       <module fileurl="file://$PROJECT_DIR$/PBL3/PBL3.iml" filepath="$PROJECT_DIR$/PBL3/PBL3.iml" />
       <module fileurl="file://$PROJECT_DIR$/PBLS.iml" filepath="$PROJECT_DIR$/PBLS.iml" />
     </modules>
