@@ -1,0 +1,29 @@
+[33mcommit 1c4a75e8fb3eabb354b653ca526696746cc7ea20[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: GustavoLuizFarignoli <gustavolf.educ@gmail.com>
+Date:   Tue Mar 21 20:36:13 2023 -0300
+
+    Adicionei os comentários ao PBL2
+
+[33mcommit 17d78ab5430f775e91199d74e8421a8bb8779ff2[m
+Author: GustavoLuizFarignoli <gustavolf.educ@gmail.com>
+Date:   Tue Mar 21 20:05:14 2023 -0300
+
+    Alterei os atributos do PBL4 para privado, pois tinha esquecido
+
+[33mcommit 23a43d4a5d6b9ae87023e4cecaf631c43ad29ed2[m
+Author: GustavoLuizFarignoli <gustavolf.educ@gmail.com>
+Date:   Tue Mar 21 19:46:45 2023 -0300
+
+    Adicionei os comentários no PBL1
+
+[33mcommit 5afecd59bd99291614dd066883d5c040dfd4898b[m
+Author: GustavoLuizFarignoli <gustavolf.educ@gmail.com>
+Date:   Tue Mar 21 19:22:06 2023 -0300
+
+    Fiz os códigos do PBL4
+
+[33mcommit 3e27913037f649e89e16dd9fbb22fd5dee224c15[m
+Author: GustavoLuizFarignoli <gustavolf.educ@gmail.com>
+Date:   Tue Mar 21 16:49:43 2023 -0300
+
+    Criei o Repositório e Adicionei os PBLS 1 e 2 sem comentários

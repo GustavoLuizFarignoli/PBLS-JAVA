@@ -6,9 +6,10 @@ public class Senior extends Profissional{
         this.premio = premio;
     }
 
-    public void Imprimir() { // Metodo para imprimir todos os dados
-        super.Imprimir(); //Chamada metodo da classe pai para poder imprimir o nome do jogador e o capital do Profissional que são privados
-        System.out.println("Prêmio: " + premio);
+    public void imprimir() { // Metodo para imprimir todos os dados
+        String name = this.getName(); // como nome é um atributo privado preciso utilizar o getter para poder pegar esse valor
+        double capital = this.getCapital(); // como nome é um atributo privado preciso utilizar o getter para poder pegar esse valor
+        System.out.println("Jogador:" + name + ", Pontuação=" + score + ", Capital: " + capital + ", Prêmio: " + premio);
     }
 
     public void ganhar(int p) { // Sobrescreve o método ganhar da classe Pai Profissional
