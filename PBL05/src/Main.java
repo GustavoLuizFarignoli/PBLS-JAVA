@@ -64,7 +64,7 @@ public class Main {
                 findall(jogadores);
                 Menu(jogadores, teclado);
             }
-            case 8 -> System.out.println("a");
+            case 8 -> System.out.println("Obrigado, Até próxima");
         }
     }
 
@@ -111,7 +111,7 @@ public class Main {
         String find = teclado.nextLine();
         Jogador j; // Variavel para utilização nos métodos de defganhador e defperdedor
         for (Jogador jogador : jogadores) { // for que percorre a coleção
-            if (Objects.equals(jogador.getName(), find)) { // Comparando cada objeto com o nome recebido
+            if (Objects.equals((jogador.getName()).toLowerCase(), find.toLowerCase())) { // Comparando cada objeto com o nome recebido
                 j = jogador; //Caso encontrado o nome buscado salvo no objeto criado anteriormente
                 j.imprimir(); //Chamando o método imprimir
                 return j;
@@ -138,8 +138,16 @@ public class Main {
         if (!isNull(j)) {
             System.out.println("Quantos pontos esse jogador ganhou ?"); // Pergunto quantos pontos foram recebidos
             int p = teclado.nextInt();
-            j.ganhar(p); // chamando o método da classe, como esse é um método é abstrato na classe jogador ele sempre ira se adequar a classe do objteo em questão
-            System.out.println("Operação realizada com sucesso"); // Feedback para o usuário
+            if (j instanceof Principiante pr1){ //Testando qual o tipo de jogador para poder chamar o método da classe já que a classe jogador não possui esse método não se pode charma por ele diretamente
+                pr1.ganhar(p);
+            }
+            if ((j instanceof Profissional pf1)) {
+                pf1.ganhar(p);
+            }
+            if ((j instanceof Senior s1)) {
+                s1.ganhar(p);
+            }
+            System.out.println("Operação realizada com sucesso");
         }else {
             System.out.println("Abortando operação...");
         }
@@ -150,7 +158,15 @@ public class Main {
         if (!isNull(j)) {
             System.out.println("Quantos pontos esse jogador perdeu ?");
             int p = teclado.nextInt();
-            j.perder(p);
+            if (j instanceof Principiante pr1){
+                pr1.perder(p);
+            }
+            if ((j instanceof Profissional pf1)) {
+                pf1.perder(p);
+            }
+            if ((j instanceof Senior s1)) {
+                s1.perder(p);
+            }
             System.out.println("Operação realizada com sucesso");
         } else{
             System.out.println("Abortando operação...");
