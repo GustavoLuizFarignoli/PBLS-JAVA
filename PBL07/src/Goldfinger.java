@@ -20,6 +20,6 @@ public class Goldfinger extends Terrorista implements  Personificacao{
     @Override //Sobreescrita do método da interface (que é abstrato por ser uma interface)
     public void personificar(Heroi heroi) {
         this.heroi = heroi; //Atualizando informação da objeto da classe goldfinger
-        System.out.println("Personogicando"); // Printando a ação
+        System.out.println("Personificando"); // Printando a ação
     }
 }
